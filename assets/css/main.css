@@ -1,0 +1,108 @@
+.prepear_link:hover {
+    text-decoration: underline; }
+  
+  .update-nag {
+    display: none; }
+  
+  a.link {
+    cursor: pointer; }
+  
+  .float-right {
+    float: right; }
+  
+  .margin-right-align-with-input {
+    margin-right: 5% !important; }
+  
+  .preview-frame {
+    width: 100%;
+    min-width: 1024px;
+    height: 85vh;
+    display: block; }
+    .preview-frame.mobile {
+      min-width: initial;
+      width: 400px; }
+  
+  .advanced-options {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    height: 100%; }
+    .advanced-options.hide {
+      height: 0;
+      opacity: 0;
+      pointer-events: none; }
+  
+  .font-style-normal {
+    font-style: normal !important; }
+  
+  .display-inline {
+    display: inline !important; }
+  
+  .warning {
+    background-color: #FFCC00; }
+  
+  .success {
+    background-color: #AFC338;
+    background-color: #749B3A;
+    color: white; }
+  
+  .error {
+    background-color: #CC3300; }
+  
+  .warning,
+  .success,
+  .error {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 10px; }
+  
+  .button-list-container {
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    margin: 0 20px 8px 0;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px; }
+    .button-list-container .button-list-container-subtitle {
+      color: grey; }
+    .button-list-container .dashicons {
+      color: grey; }
+    .button-list-container .dashicons-edit {
+      margin-right: 16px; }
+  
+  .mobile-preview-icons {
+    font-size: 12px;
+    margin: 20px 20px 10px 0; }
+    .mobile-preview-icons * {
+      margin-right: 8px; }
+    .mobile-preview-icons .dashicons {
+      color: #b4b9be;
+      cursor: pointer; }
+      .mobile-preview-icons .dashicons.active {
+        color: #0073aa; }
+  
+  #col-left {
+    width: 300px !important; }
+  
+  #col-right {
+    width: calc(100% - 300px) !important;
+    overflow: scroll; }
+  
+  .important-note {
+    background-color: #EDF8FA;
+    border-radius: 4px;
+    border: 1px solid #87D1DF;
+    padding: 10px;
+    color: #49A7B7; }
+    .important-note .important-note-title {
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .important-note a {
+      color: #49A7B7; }
+  
